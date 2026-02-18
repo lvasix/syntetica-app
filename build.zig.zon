@@ -1,0 +1,14 @@
+.{
+    .name = .syntetica_app,
+    .version = "0.0.1",
+    .dependencies = .{
+        .Syntetica_Engine = .{
+            .path = "../syntetica-core/",
+            //.url = "git+https://github.com/lvasix/syntetica-core.git#7a14e19d8f44e18e4dae50574209b6f2d62fdfb1",
+            //.hash = "Syntetica_Engine-0.0.0-Wj-cyxT1AQBuqInnU89m6XCFwn7yqbKd14IfntlqbUbw",
+        },
+    },
+    .minimum_zig_version = "0.15.2",
+    .paths = .{""},
+    .fingerprint = 0xe31ab2e6b56bb1e3,
+}
